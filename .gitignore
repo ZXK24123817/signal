@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Models (too large for git, auto-downloaded on first run)
+models/
+
+# Runtime data
+data/speaker_db.json
+
+# OS
+.DS_Store
+Thumbs.db
